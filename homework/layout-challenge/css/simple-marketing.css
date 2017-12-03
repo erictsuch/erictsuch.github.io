@@ -1,0 +1,45 @@
+header, footer {
+    height: 100px;
+}
+
+section, aside {
+    height: 300px
+}
+
+header {
+    background: red;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+section.left {
+    background: deeppink;
+    width: 50%;
+}
+
+section.right {
+    background: black;
+    width: 50%;
+}
+
+.bottom {
+    display: flex;
+    justify-content: center;
+}
+
+.bottom section {
+    background: green;
+    width: 35.5%;
+}
+
+.bottom aside {
+    background: blue;
+    width: 35.5%;
+}
+
+footer {
+    background: yellow;
+}
