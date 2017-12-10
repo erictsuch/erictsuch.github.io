@@ -1,0 +1,148 @@
+/* FONT FAMILY HELPERS :)
+font-family: 'Oswald', sans-serif;
+font-family: 'Merriweather', serif;
+font-family: 'Source Sans Pro', sans-serif; */
+
+body {
+    font-family: "Source Sans Pro", sans-serif;
+    margin: 0;
+}
+
+header {
+    font-family: "Merriweather", serif;
+    background: black;
+    color: yellow;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    border-bottom: 5px solid yellow;
+}
+
+h1 {
+    padding-left: 35px;
+}
+
+a {
+    font-family: "Oswald", sans-serif;
+    text-decoration: none;
+}
+
+nav a {
+    color: white;
+    padding-right: 35px;
+}
+
+h2 {
+    background-color: #C6C6C6;
+    font-family: "Merriweather", serif;
+    font-size: 25px;
+    font-style: italic;
+    text-align: center;
+    padding: 15 0;
+    margin: 0;
+}
+
+.taste {
+    text-decoration: line-through;
+    color: gray;
+}
+
+.are {
+    border-bottom: 3px solid yellow;
+}
+
+.intro {
+    background-image: url(../img/coworking.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: flex-end;
+    padding: 30 30 30 20;
+    box-shadow: inset 1px 1px 3px dimgray;
+}
+
+aside {
+    background: rgba(255, 255, 255, .8);
+    font-family: 'Source Sans Pro', sans-serif;
+    width: 300px;
+    padding: 50px 30px 40px 30px;
+    box-shadow: 1px 1px 1px dimgray;
+}
+
+.yellow {
+    background: yellow;
+    color: black;
+    text-align: center;
+    font-weight: 600;
+    font-size: 15px;
+    letter-spacing: .08em;
+    padding: 10;
+    box-shadow: 0px 2.5px 2px darkkhaki;
+    border: none;
+    border-radius: 5px;
+    width: 280px;
+}
+
+h3 {
+    font-size: 30px;
+    font-weight: 900;
+    margin: 0;
+}
+
+.intro p {
+     font-family: 'Source Sans Pro', sans-serif;
+    line-height: 1.75;
+    margin: 10 0 35 0;
+}
+
+.start {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20 0;
+}
+
+.box {
+    padding: 20px;
+    width: 250px;
+}
+
+h4 {
+    font-family: "Merriweather", serif;
+    font-size: 25px;
+    margin: 0;
+}
+
+p {
+    line-height: 1.75;
+    margin: 10 0 25 0;
+}
+
+.gray {
+    background: #C6C6C6;
+    color: black;
+    text-align: center;
+    font-weight: 600;
+    font-size: 15px;
+    letter-spacing: .08em;
+    text-decoration: none;
+    padding: 10;
+    box-shadow: 0px 2.5px 2px darkgray;
+    border: none;
+    border-radius: 5px; 
+    width: 230px;
+}
+
+.line {
+    border-right: 1px solid lightgray;
+    height: 200px;
+    align-self: center;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 13px;
+    padding: 20 20;
+    margin: 0;
+}
