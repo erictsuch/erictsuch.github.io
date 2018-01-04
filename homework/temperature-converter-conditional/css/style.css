@@ -1,0 +1,49 @@
+body {
+  padding: 20px;
+  text-align: center;
+  font-family: 'Abel', sans-serif;
+  background: deeppink;
+}
+
+h1 {
+  font-family: 'Bungee', sans-serif;
+  color: yellow;
+  font-size: 45px;
+}
+
+input {
+  width: 110px;
+  margin: 5px;
+  box-sizing: border-box;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+a {
+  text-decoration: none;
+}
+
+#button {
+  /* box-sizing: border-box; */
+  width: 100px;
+  margin: 5px 5px 5px 5px;
+  border-radius: 4px;
+  background: yellow;
+  color: deeppink;
+  text-align: center;
+}
+
+#answer {
+  font-family: 'Bungee', sans-serif;
+  color: yellow;
+}
+
+.image {
+  width: 500px;
+  display: flex;
+  align-items: center;
+}
