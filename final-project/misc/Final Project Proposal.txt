@@ -1,0 +1,7 @@
+Final Project Proposal
+
+For my final project, I'd like to make an online store for a greeting card company. I started making my own greeting cards for friends and family about a year ago, because I could never find exactly what I wanted on the racks -- it isn't really a company, but I think making a website/online store for it could be fun. I imagine it would have some sort of a home page, a shop page, and an about/contact page (those could also be separated). Ideally it would also have the ability to create a cart and add merchandise to it. For the purpose of this project, it doesn't need to support actual transactions; but if setting that up would be good practice for me, then I'll add that to the list.
+
+
+Query UI for hamburger menu
+Firebase for cart

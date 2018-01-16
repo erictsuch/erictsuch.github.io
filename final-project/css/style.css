@@ -1,0 +1,101 @@
+header {
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+    padding: 20px 20px 0px 20px;
+}
+
+/* THIS IS THE MENU */
+
+.home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4db3c;
+    color: black;
+    height: 30px;
+    width: 150px;
+    margin-bottom: 5px;
+}
+
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4db3c;
+    color: black;
+    height: 30px;
+    width: 150px;
+    margin-bottom: 5px;
+}
+
+.cart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4db3c;
+    color: black;
+    height: 30px;
+    width: 150px;
+}
+
+/* THIS IS THE BODY */
+
+body {
+    background-color: white;
+    text-align: center;
+    padding: 0px 5px;
+}
+
+.cards {
+    height: 100%;
+    display: grid;
+    grid-gap: 30px;
+    /* grid-template-columns: 300px 300px 300px; */
+    grid-template-rows: 400px 400px;
+    grid-template-areas: 
+    "a b c"
+    "d e f"
+    "g h i";
+    }
+
+    .cards__1 {
+        grid-area: a;
+    }
+
+    .cards__2 {
+        grid-area: b;
+    }
+
+    .cards__3 {
+        grid-area: c;
+    }
+
+    .cards__4 {
+        grid-area: d;
+    }
+
+    .cards__5 {
+        grid-area: e;
+    }
+
+    .cards__6 {
+        grid-area: f;
+    }
+
+    .cards__7 {
+        grid-area: g;
+    }
+
+    .cards__8 {
+        grid-area: h;
+    }
+
+    .cards__9 {
+        grid-area: i;
+    }
+
+    footer {
+        margin-top: 100px;
+    }
