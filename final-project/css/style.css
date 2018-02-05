@@ -1,101 +1,190 @@
 header {
     text-align: center;
+    font-family: 'Saira Condensed', sans-serif;
+    background-color: white;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     margin-bottom: 100px;
-    padding: 20px 20px 0px 20px;
+    padding: 20px 20px 20px 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    box-shadow: 0px 1px 1px #eeeeee;
 }
 
 /* THIS IS THE MENU */
 
-.home {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #f4db3c;
-    color: black;
-    height: 30px;
-    width: 150px;
-    margin-bottom: 5px;
+.large-nav {
+    margin: 0px 10px;
+    font-size: 20px;
 }
 
-.about {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #f4db3c;
-    color: black;
-    height: 30px;
-    width: 150px;
-    margin-bottom: 5px;
+header a:hover {
+    color: #f4db3c;
 }
 
-.cart {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.hamburg {
+    display: none;
+}
+
+.dropdown {
+    display: none;
+    position: fixed;
     background-color: #f4db3c;
+    top: 89px;
+    right: 0;
+    left: 0;
+    height: 12%;
+}
+
+.menu-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 25px;
+    font-weight: 500;
+    letter-spacing: .5px;
     color: black;
-    height: 30px;
-    width: 150px;
+    margin-bottom: 5px;
+    padding-top: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    color: white;
 }
 
 /* THIS IS THE BODY */
 
 body {
+    background-image: url('../img/bg.png');
+    background-size: 50%;
+    background-repeat: repeat;
+    background-attachment: fixed;
     background-color: white;
+    font-family: 'Saira Condensed', sans-serif;
     text-align: center;
-    padding: 0px 5px;
+    padding: 100px 5px 0px 5px;
 }
 
-.cards {
+h1 {
+    font-size: 35px;
+}
+
+h2 {
+    font-size: 40px;
+    margin: 20px 0px 0px 0px;
+}
+
+p {
+    font-size: 16px;
+}
+
+.p-header {
+    font-size: 20px;
+    margin: 0px 0px 30px 0px;
+}
+
+.all-cards {
     height: 100%;
-    display: grid;
-    grid-gap: 30px;
-    /* grid-template-columns: 300px 300px 300px; */
-    grid-template-rows: 400px 400px;
-    grid-template-areas: 
-    "a b c"
-    "d e f"
-    "g h i";
-    }
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 
-    .cards__1 {
-        grid-area: a;
-    }
+.card {
+    padding: 20px 0px;
+    margin: 0px 50px;
+}
 
-    .cards__2 {
-        grid-area: b;
-    }
 
-    .cards__3 {
-        grid-area: c;
-    }
+.card-text {
+    text-align: left;
+    margin: 5px 0px;   
+}
 
-    .cards__4 {
-        grid-area: d;
-    }
+h1, p {
+    margin: 0 auto;
+}
 
-    .cards__5 {
-        grid-area: e;
-    }
+.img {
+    border: 3px solid #f4db3c;
+}
 
-    .cards__6 {
-        grid-area: f;
-    }
+footer {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    font-family: 'Saira Condensed', sans-serif;
+    font-weight: 100;
+}
 
-    .cards__7 {
-        grid-area: g;
-    }
+/* THIS IS THE ABOUT PAGE */
 
-    .cards__8 {
-        grid-area: h;
-    }
+.about {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
 
-    .cards__9 {
-        grid-area: i;
-    }
+.bio {
+    text-align: center;
+    margin: 0px 200px;
+}
 
-    footer {
-        margin-top: 100px;
+.about-text {
+    font-size: 18px;
+    padding: 0px 100px;
+}
+
+/* MEDIA QUERIES */
+
+@media (max-width: 1024px) {
+	.hamburg {
+		display: block;
+	}
+	.large-nav {
+		display: none;
     }
+    .about-text {
+        padding: 0px 50px;
+    }
+}
+
+@media (max-width: 755px) {
+    .bio {
+        margin: 0px 100px;
+    }
+}
+
+@media (max-width: 570px) {
+    h1 {
+        font-size: 25px;
+    }
+    .about-text {
+        font-size: 15px;
+        padding: 0px;
+    }
+    .bio {
+        margin: 0px 50px;
+    }
+}
+
+@media (max-width: 500px) {
+    h2 {
+        font-size: 30px;
+        }
+    .p-header {
+        font-size: 15px;
+    }
+    h1 {
+        font-size: 27px;
+    }
+}

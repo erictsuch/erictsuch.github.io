@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+       #map {
+        height: 400px;
+        width: 100%;
+       }
+    </style>
+  </head>
+  <body>
+    <h3>My Google Maps Demo</h3>
+    <div id="map"></div>
+    <script>
+      function initMap() {
+        var labels = 'ABCD';
+        var labelIndex = 0;
+        var timbuktu = {lat: 16.77348, lng: -3.00742};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 6,
+          center: timbuktu
+        });
+        var marker = new google.maps.Marker({
+          position: timbuktu,
+          label: { text: 'Tim' },
+        //   label: labels[labelIndex++ % labels.length],
+          map: map
+        });
+      }
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDShLsjJkgYwvI6RcAHMaWTxnZwfSYUOFg&callback=initMap">
+    </script>
+  </body>
+</html>

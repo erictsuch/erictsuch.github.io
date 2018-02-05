@@ -2,54 +2,57 @@
 <html>
 
 <head>
-    <title>yellow jacket cards | about</title>
-    <link rel="shortcut icon" type="image/png" href="img/favicon.png" />
+  <title>yellow jacket cards | about</title>
+  <link rel="shortcut icon" type="image/png" href="img/favicon.png" />
 
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Saira+Condensed:100,200,700" rel="stylesheet">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 
 <header>
-    <img src="img/header.png" alt="yellow jacket cards" width="300" height="42">
-    <div class="menu">
-        <!-- <img src="img/menu.png" width="50" height="38"> -->
-        <div class="home">
-            <p>
-                <a href="index.html">home</a>
-            </p>
-        </div>
-        <div class="about">
-            <p>
-                <a href="about.html" target="blank">about/contact</a>
-            </p>
-        </div>
-        <div class="cart">
-            <p>cart</p>
-        </div>
-    </div>
+  <a href="index.html">
+    <img class="logo" src="img/header.png" alt="yellow jacket cards" width="300" height="42">
+  </a>
+  <div>
+    <a class="large-nav" href="index.html">home</a>
+    <a class="large-nav" href="about.html">about</a>
+    <img class="hamburg" src="img/menu.png" width="40" height="31">
+  </div>
 </header>
 
 <body>
-    <div class="intro">
-        <h1>We are Yellow Jacket Cards.</h1>
-        <p>
-            We mostly make hand-crafted greeting cards in Brooklyn NY.
-            <br> We think they’re kinda cool. Perhaps you do as well.
-        </p>
+  <div class="dropdown">
+    <div class="menu-item">
+      <a href="index.html">home</a>
     </div>
-    <img class="headshot" src="img/ph.png" alt="image of founders" width="200">
+    <div class="menu-item">
+      <a href="about.html">about</a>
+    </div>
+  </div>
+  <div class="about">
+    <div>
+      <img class="headshot img" src="img/bio.jpg" alt="image of founders" width="300">
+    </div>
     <div class="bio">
-        <h1>Our Story</h1>
-        <p>
-            A fearless yellow jacket landed on the brim of Eric’s lemonade and whiskey-filled mason jar. Christian, an unfamiliar party
-            guest, approached him and photographed the pesky encounter. With the help of this winged pollinator, the two
-            became lovers, and eventually creative business partners. How romantic/gross.
-        </p>
+      <h1>We are Yellow Jacket Cards.</h1>
+      <p class="about-text">
+        We mostly make hand-crafted greeting cards in Brooklyn NY. We think they’re kinda cool. Perhaps&nbsp;you&nbsp;do&nbsp;as&nbsp;well.
+      </p>
+      <h1>Our Story</h1>
+      <p class="about-text">
+        A fearless yellow jacket landed on the brim of Eric’s lemonade and whiskey-filled mason jar. Christian, an unfamiliar party
+        guest, approached him and photographed the pesky encounter. With the help of this winged pollinator, the two became
+        lovers, and eventually creative business partners. How&nbsp;romantic.&nbsp;Barf.
+      </p>
     </div>
+  </div>
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <script type="text/javascript" src="js/app.js"></script>
 </body>
 
 <footer>
-    <p>&copy; 2018 Yellow Jacket Cards</p>
+  <p>&copy; 2018 Yellow Jacket Cards</p>
 </footer>
 
 </html>

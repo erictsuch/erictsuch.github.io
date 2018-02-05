@@ -1,5 +1,20 @@
-// slideToggle menu
-// lazy load images
-// click on image opens child window with larger image and details on pricing
+$('document').ready(function () {
 
-// I realize there isn't much here, but I don't think I need much more than this (though I might realize more as I'm building it out). 
+    $('.hamburg').click(function () {
+        
+        $('.dropdown').slideToggle();
+
+    })
+
+    $(window).resize(function(){
+		if ($(window).width() > '1024') {
+            $('.hamburg').hide();
+            $('.dropdown').hide();
+            $('.large-nav').show();
+		} else {
+            $('.hamburg').show();
+            $('.large-nav').hide();
+        }
+    })
+   
+})
